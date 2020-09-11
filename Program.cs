@@ -17,6 +17,9 @@ class Program
 
         Portugues profPortugues = new Portugues();
         Console.WriteLine(profPortugues.trabalha(palavra1, palavra2));
+
+        Historia profHistoria = new Historia();
+        Console.WriteLine(profHistoria.trabalha(palavra1, palavra2));
         
     }
 }
